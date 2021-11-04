@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<form action="https://google.co.il/search" method="get" target="_blank">
+  <label for="q" style="font-weight: bold;">Search Text:</label>
+  <input type="text" id="q" name="q" id="q" value="pita" required>
+  <label for="as_qdr" style="font-weight: bold;">That Was Updated In:</label>
+  <select name="as_qdr" id="as_qdr">
+      <option value="d">the previous 24 hours</option>
+      <option value="w">the previous seven days</option>
+      <option value="m">the previous month</option>
+      <option value="y">past year</option>
+  </select>
+  <label for="lr" style="font-weight: bold;">Search Only Pages Written In Hebrew:</label>
+  <input type="checkbox" id="lr" name="lr" value="lang_iw" checked>
+  <label for="num" style="font-weight: bold;">Number Of Results:</label>
+  <input type="number" id="num" name="num" min="1" max="25" value="5">
+  <input type="submit" value="Ask Google" style="color: green;border-radius: 12px;">
+</form> 
+
+
+</body>
+</html>
+
+
